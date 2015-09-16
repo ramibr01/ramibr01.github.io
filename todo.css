@@ -1,0 +1,25 @@
+     h1 {
+          color: white;
+          background-color: black;
+     }
+     h2 {
+          color: red;
+     }
+     h3 {
+          color: orange;
+     }
+     h4 {
+          color: grey;
+     }
+     .red {
+          background-color: red;
+     }
+     .orange {
+          background-color: orange;
+     }
+     .grey {
+          background-color: grey;
+     }
+     .done {
+     text-decortion: line-through;
+     }
