@@ -1,0 +1,25 @@
+ #123 {
+ background-color: red;
+ }
+ #456 {
+ background-color: orange;
+ }
+ #789 {
+ background-color: grey;
+  }
+ #0 {
+ background-color: black;
+ .high {
+ color: white;
+ }
+ .medium {
+ color: brown;
+ }
+ .low {
+ color: black;
+ }
+ .done {
+ color: cyan;
+ text-decoration: line through;
+ }
+ 
