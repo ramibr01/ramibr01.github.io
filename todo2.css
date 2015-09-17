@@ -1,4 +1,15 @@
-<style>
+ .abc {
+  background-color: red;
+ }
+ .def {
+  background-color: orange;
+ }
+ .ghi {
+  background-color: grey;
+ }
+ .jk {
+  background-color: black;
+ }
  .high {
  color: white;
  }
@@ -12,5 +23,5 @@
  color: cyan;
  text-decoration: line-through;
  }
- </style>
+ 
  
