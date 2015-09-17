@@ -1,23 +1,23 @@
- #123 {
- background-color: red;
+ .123 {
+  background-color: red;
  }
- #456 {
- background-color: orange;
+ .456 {
+  background-color: orange;
  }
- #789 {
- background-color: grey;
-  }
- #0 {
- background-color: black;
+ .789 {
+  background-color: grey;
+ }
+ .0 {
+  background-color: black;
  }
  .high {
- color: red;
+ color: white;
  }
  .medium {
  color: brown;
  }
  .low {
- color: grey;
+ color: black;
  }
  .done {
  color: cyan;
