@@ -5,13 +5,13 @@ section {
 }
 #a {
  position: relative;
- bottom: 15px;
+ top: 20px;
 }
 #b {
  position: relative;
- bottom: 15px;
+ top: 20px;
 }
 #priority {
  position: relative;
- bottom: 15px;
+ top: 20px;
 }
