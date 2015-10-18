@@ -1,17 +1,13 @@
 section {
+ position: relative;
+ top: 20px;
  height: 300px;
  width: 525px;
  background-color: blue;
-}
+ }
 #a {
- position: relative;
- top: 20px;
 }
 #b {
- position: relative;
- top: 20px;
 }
 #priority {
- position: relative;
- top: 20px;
 }
