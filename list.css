@@ -6,7 +6,7 @@ section {
  background-color: blue;
  }
 #a {
- background-color: blue;
+ border: 5px solid blue;
 }
 #b {
 }
