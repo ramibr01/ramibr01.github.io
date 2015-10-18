@@ -4,11 +4,14 @@ section {
  background-color: blue;
 }
 #a {
- margin: 25px;
+ position: relative;
+ bottom: 15px;
 }
 #b {
- margin: 25px;
+ position: relative;
+ bottom: 15px;
 }
 #priority {
- margin: 25px;
+ position: relative;
+ bottom: 15px;
 }
