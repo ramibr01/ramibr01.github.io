@@ -7,11 +7,10 @@ section {
  }
 #a {
  border: 10px solid blue;
- width: 300px;
 }
 #b {
-
+ border: 10px solid blue;
 }
 #priority {
- 
+ border: 10px solid blue;
 }
