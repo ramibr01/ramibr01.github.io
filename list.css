@@ -10,9 +10,11 @@ section {
 }
 #b {
  position: relative;
- right: 5px;
+ right: 10px;
  border: 10px solid blue;
 }
 #priority {
+ position: relative;
+ right: 5px;
  border: 10px solid blue;
 }
