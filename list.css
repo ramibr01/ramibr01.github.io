@@ -6,9 +6,11 @@ section {
  background-color: blue;
  }
 #a {
- border: 5px solid blue;
+ border: 10px blue;
 }
 #b {
+  border: 10px blue;
 }
 #priority {
+  border: 10px blue;
 }
