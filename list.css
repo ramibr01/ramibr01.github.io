@@ -9,6 +9,8 @@ section {
  border: 10px solid blue;
 }
 #b {
+ position: relative;
+ right: 5px;
  border: 10px solid blue;
 }
 #priority {
