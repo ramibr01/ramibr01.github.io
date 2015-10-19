@@ -1,5 +1,6 @@
 create = function() {
- var list = document.createElement("li");
- list = document.querySelector("#a");
- list = document.createTextNode("value");
+ newLi = document.createElement("li");
+  newLi.className = myPriority.value;
+ newIn = document.createElement("input");
+  newIn.type = "checkbox"
  }
