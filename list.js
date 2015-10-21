@@ -1,4 +1,4 @@
-create = function() {
+createNewTask = function() {
  myBox = document.querySelector("#a");
  myPriority = document.querySelector("#priority");
  myUl = document.createElement("ul");
