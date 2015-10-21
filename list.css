@@ -5,12 +5,12 @@ section {
  width: 550px;
  background-color: blue;
  }
-#a {
+#textbox {
  position: relative;
  left: 5px;
  border: 7px solid blue;
 }
-#b {
+#button {
  position: relative;
  right: 15px;
  border: 7px solid blue;
@@ -19,4 +19,13 @@ section {
  position: relative;
  right: 5px;
  border: 7px solid blue;
+}
+.high {
+ color: red;
+}
+.medium {
+ color: yellow;
+}
+.low {
+ color: black;
 }
