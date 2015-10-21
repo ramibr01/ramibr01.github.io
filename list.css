@@ -5,12 +5,12 @@ section {
  width: 550px;
  background-color: blue;
  }
-#button {
+#textbox {
  position: relative;
  left: 5px;
  border: 7px solid blue;
 }
-#textbox {
+#button {
  position: relative;
  right: 15px;
  border: 7px solid blue;
