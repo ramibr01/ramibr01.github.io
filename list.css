@@ -7,7 +7,7 @@ section {
  }
 #textbox {
  position: relative;
- left: 5px;
+ left: 10px;
  border: 7px solid blue;
 }
 #button {
