@@ -6,8 +6,6 @@
 <body>
 <center><h1>Busy Busy</h1></center>
 <center><section>
-    <ul id="task">
-    </ul>
 </section></center>
 <center>Enter Task <input id="a" type="text" size="50">
 <select id="priority">
@@ -19,16 +17,17 @@
 </center>
 <script type="text/javascript">
 createNewTask = function() {
- myUl = document.querySelector("#task");
+ myUl = document.createElement("ul");
+ myUl = document.querySelector("#a");
  myLi = document.createElement("li");
-   myPriority = document.querySelector("#priority");
+   myLi.document.querySelector("#priority");
    myLi.classlist.add(myPriority.value);
  myIn = document.createElement("input");
   myIn.type = "checkbox";
  myText = document.createTextNode(myBox.value);
-  myBox = document.querySelector("#a");
+  myText.document.querySelector("#a");
  myUl.appendChild(myLi);
- myLi.appendChild(input);
+ myLi.appendChild(myIn);
  myLi.appendChild(myText);
  }
 </script>
