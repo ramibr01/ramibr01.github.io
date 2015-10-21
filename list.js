@@ -5,9 +5,9 @@ create = function() {
   myUl = document.querySelector("#task");
  myLi = document.createElement("li");
   myLi.classlist.add(myPriority.value);
-  myText = document.createTextNode(myBox.value);
  myIn = document.createElement("input");
   myIn.type = "checkbox";
+    myText = document.createTextNode(myBox.value);
   myUl.appendChild(myLi);
   myLi.appendChild(input);
   myLi.appendChild(myText);
