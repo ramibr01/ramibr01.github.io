@@ -9,7 +9,6 @@ create = function() {
   myLi.appendChild(myInput);
   myLi.appendChild(myText);
   myText = document.createTextNode(myBox.value);
- myIn = document.createElement("INPUT");
+ myIn = document.createElement("input");
   myIn.type = "checkbox";
-  myIn.appendChild(INPUT);
  }
