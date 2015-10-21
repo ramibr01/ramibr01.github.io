@@ -3,12 +3,12 @@ create = function() {
  myPriority = document.querySelector("#priority");
  myUl = document.createElement("ul");
   myUl = document.querySelector("#task");
-  muUl.appendChild(myLi);
  myLi = document.createElement("li");
   myLi.classlist.add(myPriority.value);
-  myLi.appendChild(myInput);
-  myLi.appendChild(myText);
   myText = document.createTextNode(myBox.value);
  myIn = document.createElement("input");
   myIn.type = "checkbox";
+  myUl.appendChild(myLi);
+  myLi.appendChild(input);
+  myLi.appendChild(myText);
  }
