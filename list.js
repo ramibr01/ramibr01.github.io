@@ -1,8 +1,15 @@
 create = function() {
- newLi = document.createElement("li");
-  newLi.className = myPriority.value;
-  newLi.appendChild(li);
- newIn = document.createElement("input");
-  newIn.type = "checkbox";
-  newIn.appendChild(input);
+ myBox = document.querySelector("#a");
+ myPriority = document.querySelector("#priority");
+ myUl = document.createElement("ul");
+  myUl = document.querySelector("#task");
+  muUl.appendChild(myLi);
+ myLi = document.createElement("li");
+  myLi.classlist.add(myPriority.value);
+  myLi.appendChild(myInput);
+  myLi.appendChild(myText);
+  myText = document.createTextNode(myBox.value);
+ myIn = document.createElement("INPUT");
+  myIn.type = "checkbox";
+  myIn.appendChild(INPUT);
  }
