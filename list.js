@@ -18,7 +18,7 @@ createNewTask = function() {
  myLi.appendChild(myIn);
  t = document.createTextNode(taskText);
  myLi.appendChild(t);
- tasklist.appendChild(myLi);
+ list.appendChild(myLi);
 }
 
 
