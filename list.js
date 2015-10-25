@@ -9,7 +9,7 @@ createNewTask = function() {
  var newLi
  text = document.querySelector("#textbox");
  list = document.querySelector("#list");
- priority = document.querySelector("#priority").value;
+ priorityValue = document.querySelector("#priority").value;
  myLi = document.createElement("#li");
   myLi.classList.add(priority.value);
  myIn = document.createElement("input");
