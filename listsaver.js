@@ -1,0 +1,2 @@
+task.value = ""
+localsave("list")
