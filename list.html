@@ -10,14 +10,15 @@
 </section></center>
 <center>Enter Task <input id="textbox" type="text" size="50">
 <select id="priority">
-    <option class="high">High</option>
-    <option class="medium">Medium</option>
-    <option class="low">low</option>
+    <option>High</option>
+    <option>Medium</option>
+    <option>low</option>
 </select>
 <button id="button" onclick="createNewTask();">New</button>
 </center>
 <script src="list.js" type="text/javascript">
 </script>
+<script src="listsaver.js" type="text/javascript"></script>
 <script type="text/javascript">
    window.onload = function() { restoreList('list', doneTask) };
  </script>
