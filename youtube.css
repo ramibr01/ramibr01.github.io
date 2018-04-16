@@ -9,7 +9,7 @@ body {
 }
 
 .controls, .results {
-  flex: 1;
+  flex: 20;
   padding: 10px;
 }
 
