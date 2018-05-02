@@ -1,0 +1,35 @@
+{% extends "passbase.html" %}
+
+{% block content %}
+<div>
+  <form action="genpass">
+    <div>
+      <label for=min>Min length for each word</label>
+      <input type="number" min='0' id="min "name="min" value={{min_pass_length}}>
+    </div>
+
+    <div>
+      <label for=max>Max length for each word</label>
+      <input type='number' min='0' id="max" name="max" value={{max_pass_length}}>
+    </div>
+
+    <!--<div>
+    <label for=make>Check to substitute letters for numbers</label>
+    <input type="checkbox" name="make">
+    </div>-->
+
+    <div>
+      <input type="submit" value="Generate Password">
+    </div>
+  </form>
+</div>
+
+<p>Here is your password:</p>
+<table>
+  {% for i in range(0,password|length,2) %}
+  <tr><td> {{ password[i] }} </td>
+      <td> {{ password[i+1] }} </td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}
